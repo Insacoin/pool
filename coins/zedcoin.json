@@ -1,6 +1,0 @@
-{
-    "name": "zedcoin",
-    "symbol": "ZED",
-    "algorithm": "scrypt",
-    "peerMagic": "c0dbf1fd"
-}

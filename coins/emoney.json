@@ -1,6 +1,0 @@
-{
-    "name": "Emoney",
-    "symbol": "ECASH",
-    "algorithm": "sha256",
-    "txMessages": true
-}

@@ -1,7 +1,0 @@
-{
-  "name": "bitstar",
-  "symbol": "BITS",
-  "algorithm": "scrypt",
-  "peerMagic": "cef1dbfa",
-  "reward": 124
-}
