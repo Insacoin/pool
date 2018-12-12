@@ -1,0 +1,69 @@
+{
+    "enabled": true,
+    "coin": "insacoin.json",
+
+    "auxes": [
+    ],
+    "address": "iNJ5UP6hosV9mvXbFm9yoYZ2nLdefPu6h4",
+
+    "rewardRecipients": {
+        "i3h9e4ax9dP5n3rCMb8wNKpy3HSFfYnH24": 2
+    },
+
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 60,
+        "minimumPayment": 0.01,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 7332,
+        }
+    },
+
+    "ports": {
+        "3008": {
+            "diff": 8
+        },
+        "3032": {
+            "diff": 32,
+            "varDiff": {
+                "minDiff": 8,
+                "maxDiff": 512,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        },
+        "3256": {
+            "diff": 256
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 7332,
+            "user": "darosior",
+            "password": "kaiokaiokaiokaiokaiokaiodarosiorfeqsduhunsmef{[{cd^$&DZDpj,do123"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": false
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "ltc",
+        "checkPassword": false,
+        "autoCreateWorker": false
+    }
+
+}
