@@ -1,0 +1,7 @@
+{
+    "name": "Insacoin",
+    "symbol": "ISC",
+    "algorithm": "scrypt",
+    "peerMagic": "fdc2b8dd",
+    "peerMagicTestnet": "fcc1b7dc"
+}
